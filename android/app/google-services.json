@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "920948643805",
+    "firebase_url": "https://teamtechnocrats-def72.firebaseio.com",
+    "project_id": "teamtechnocrats-def72",
+    "storage_bucket": "teamtechnocrats-def72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920948643805:android:311e56bcf716a7392e0834",
+        "android_client_info": {
+          "package_name": "com.rpms.tt_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920948643805-m6dkkqacjgscltusqmjcuv9q27c4rche.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOwpfUu8V724gseECDjf03YMiZkqKdDc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920948643805-m6dkkqacjgscltusqmjcuv9q27c4rche.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
