@@ -3,29 +3,25 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:tt_firebase/bluetooth/costomicon_icons.dart';
 
-class Blood_Pressure extends StatelessWidget {
+@override
+State<StatefulWidget> createState() {
+  // TODO: implement createState
+  throw UnimplementedError();
+}
+
+class Blood_pressure extends StatefulWidget {
+  @override
+  _Blood_pressureState createState() => _Blood_pressureState();
+}
+
+class _Blood_pressureState extends State<Blood_pressure> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: RaisedButton.icon(
-        onPressed: () {
-          print('Blood pressue Clicked.');
-          //navigate to next screen
-        },
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(Radius.circular(10.0)),
-        ),
-        label: Text('Blood Pressure',
-            style: TextStyle(color: Colors.black, fontSize: 20.0)),
-        icon: Icon(
-          Costomicon.blood_pressure_control_tool,
-          color: Colors.red,
-          size: 50.0,
-        ),
-        textColor: Colors.white,
-        splashColor: Colors.red,
-        color: Colors.amber,
-      ),
-    );
+    return Scaffold(
+        appBar: AppBar(
+            iconTheme: IconThemeData(color: Colors.black),
+            title:
+                Text("Blood Pressure", style: TextStyle(color: Colors.black)),
+            backgroundColor: Colors.tealAccent));
   }
 }

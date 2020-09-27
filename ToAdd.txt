@@ -1,0 +1,11 @@
+In list tiles todo:
+-create a statefulwidget for change password and we have ti use updat query
+   fields that it should contain:-
+   -enter old password
+   -enter new pass word
+   -confirm new password
+-for History we can create a list tile view with (timestamp and date with all the readings)
+-connect is mapped to ble settings
+-logout to exit already done
+-about the app may be...
+-need to implement scrollable screen for history and doctor consulting(Listtile)

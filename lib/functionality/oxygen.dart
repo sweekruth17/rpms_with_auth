@@ -1,31 +1,19 @@
-import 'package:community_material_icon/community_material_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:tt_firebase/bluetooth/costomicon_icons.dart';
 
-class Oxygen_Percentage extends StatelessWidget {
+class Oxygen extends StatefulWidget {
+  @override
+  _OxygenState createState() => _OxygenState();
+}
+
+class _OxygenState extends State<Oxygen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: RaisedButton.icon(
-      onPressed: () {
-        print('oximeter  Clicked.');
-        //navigate to next screen
-      },
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.all(Radius.circular(10.0)),
-      ),
-      label: Text('Oximeter',
-          style: TextStyle(color: Colors.black, fontSize: 20.0)),
-      icon: Icon(
-        Costomicon.pulse_oximeter,
-        size: 50.0,
-        color: Colors.black,
-      ),
-      textColor: Colors.white,
-      splashColor: Colors.white,
-      color: Colors.amber,
-    ));
+    return Scaffold(
+        appBar: AppBar(
+            iconTheme: IconThemeData(color: Colors.black),
+            actions: [],
+            title: Text("Oximeter", style: TextStyle(color: Colors.black)),
+            backgroundColor: Colors.tealAccent));
   }
 }
